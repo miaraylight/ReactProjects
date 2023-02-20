@@ -1,0 +1,14 @@
+.wrapper{
+    width: 85%;
+    margin: auto;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px;
+    border-radius: 8px;
+}
+h1{
+    width: 100%;
+}

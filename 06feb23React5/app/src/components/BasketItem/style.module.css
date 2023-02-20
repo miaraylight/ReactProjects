@@ -1,0 +1,23 @@
+.item{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-auto-rows: 1fr;
+
+    border: 3px rgb(235, 97, 97) dashed;
+    background-color: rgba(198, 217, 224, 0.512);
+    padding: 5px;
+    margin: 10px;
+    color: rgb(49, 48, 48);
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.btns_container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
