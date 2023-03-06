@@ -1,0 +1,15 @@
+.card{
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    
+}
+.btns button{
+    width: 20px;
+    height: 20px;
+}

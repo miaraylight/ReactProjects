@@ -1,0 +1,34 @@
+.wrapper{
+    background-color: #f2f2f2;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 238, 182, 0.737);
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+
+}
+.form input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+}
+.form button{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+    background-color: #95e6d6db;
+    
+}
