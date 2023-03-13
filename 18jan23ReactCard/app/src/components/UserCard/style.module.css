@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+    padding: 10px 0;
+    background-color: #eeeeee;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 10px 15px;
+    background-color: #eeeeee;
+}
+.top{
+    height: 100px;
+    background-image: url(/image/mountain.jpg);
+    background-position: center;
+    background-size: cover;
+}
+span{
+    color: #393e468f;
+}
+p{
+    color:  #222831;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    color:  #222831;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

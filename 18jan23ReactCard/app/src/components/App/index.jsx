@@ -1,4 +1,5 @@
 import UserCard from "../UserCard/UserCard";
+import s from "./style.module.css"
 
 const users = // 20230313130304
 // https://jsonplaceholder.typicode.com/users
@@ -238,7 +239,7 @@ const users = // 20230313130304
 
 function App() {
   return (
-    <div>
+    <div className={s.wrapper}>
       {
         users.map(item => <UserCard {...item}/>)
       }
